@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.px1{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.mb1{
+  margin-bottom: 1rem;
+}
+.mt2{
+  margin-top: 2rem;
+}
+
+.todo.completed span{
+  text-decoration: line-through;
+}
+
+.todo label{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.todo i{
+  z-index: 2;
+}
